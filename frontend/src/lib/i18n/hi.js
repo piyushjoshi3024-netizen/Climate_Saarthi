@@ -1,0 +1,37 @@
+// Hindi scaffolding (navigation, banners, footer). Page bodies remain English until
+// translations are reviewed by a fluent speaker. Missing keys fall back to English.
+const hi = {
+  'skip.toMain': 'मुख्य सामग्री पर जाएँ',
+  'nav.home': 'होम',
+  'nav.dashboard': 'डैशबोर्ड',
+  'nav.map': 'मानचित्र',
+  'nav.resources': 'संसाधन',
+  'nav.solutions': 'समाधान',
+  'nav.impact': 'प्रभाव',
+  'nav.methodology': 'कार्यप्रणाली',
+  'nav.track': 'रिपोर्ट ट्रैक करें',
+  'nav.report': 'समस्या बताएँ',
+  'nav.signIn': 'साइन इन',
+  'nav.signOut': 'साइन आउट',
+  'nav.workspace': 'वर्कस्पेस',
+  'nav.console': 'कंसोल',
+  'nav.profile': 'प्रोफ़ाइल',
+  'nav.account': 'खाता मेनू',
+  'session.expired': 'आपका सत्र समाप्त हो गया है। जारी रखने के लिए फिर से साइन इन करें।',
+  'nav.menu': 'मेनू खोलें',
+  'nav.close': 'मेनू बंद करें',
+  'nav.primary': 'मुख्य',
+  'lang.switchTo': 'English',
+  'lang.switchLabel': 'भाषा अंग्रेज़ी में बदलें',
+  'demo.banner': 'डेमो डेटा। यह वास्तविक इलाकों का आकलन नहीं है।',
+  'demo.bannerDetail': 'पायलट में काल्पनिक इलाके और कृत्रिम रिकॉर्ड हैं, जब तक सत्यापित स्रोत नहीं जोड़े जाते।',
+  'footer.emergency': 'आपात स्थिति में 112 (एम्बुलेंस 108) पर कॉल करें। Climate Saarthi कोई आपातकालीन सेवा नहीं है।',
+  'footer.sources': 'आधिकारिक स्रोत',
+  'footer.product': 'प्लेटफ़ॉर्म',
+  'footer.tagline': 'अलर्ट बताते हैं कि गर्मी कहाँ है। सारथी दिखाता है कि मदद कहाँ नहीं पहुँची।',
+  'footer.sourceNote': 'ये लिंक आधिकारिक पोर्टल के हैं। ये संदर्भ हैं, लाइव डेटा फ़ीड नहीं।',
+  'common.retry': 'फिर से कोशिश करें',
+  'common.loading': 'लोड हो रहा है',
+};
+
+export default hi;

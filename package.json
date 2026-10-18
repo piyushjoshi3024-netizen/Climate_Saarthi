@@ -1,0 +1,13 @@
+{
+  "name": "climate-saarthi",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Climate Saarthi — heatwave response intelligence (MERN, JavaScript only)",
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/check-phase1.mjs",
+    "build": "npm --prefix frontend run build",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "npm --prefix backend run dev"
+  }
+}
